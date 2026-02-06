@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ХвостСудьбы</title>
+    <link rel="shortcut icon" href="../img/логоо.png" type="png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="#home" class="logo">ХвостСудьбы</a>
+        <img src="../img/логоо.png" class="logo-animated">
+        <p class="site-slogan">Правильный выбор и забота о коте</p>
+    </header>
+    <nav class="page-nav vibor-navigation">
+        <a href="../index.html" class="nav-link nav-vibor">Главная</a>
+        <a href="vibor.html" class="nav-link  nav-vibor">Как выбрать</a>
+        <a href="porodi.html" class="nav-link  nav-vibor">Породы</a>
+        <audio src="../img/спокойная музыка.mp3" autoplay loop></audio>
+    </nav>
+    <main class="main-content">
+        <section class="form-section">
+            <h1 class="form-title">Анкета для выбора идеальной кошки</h1>
+            <p class="form-description">Заполните анкету, чтобы понять, какая кошка вам подходит</p>
+            <form class="cat-form" action="#" method="post">
+                <fieldset class="form-group">
+                    <legend>Ваши данные</legend>
+                    <div class="form-row">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">Ваш телефон:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+7 (900) ХХХ-ХХ-ХХ" required>
+                    </div>
+                </fieldset>
+                <fieldset class="form-group">
+                    <legend>Ваш опыт с кошками</legend>
+                    <div class="form-row">
+                        <label>У вас уже есть кошка?</label>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="has_cat" value="yes" checked> Да
+                            </label>
+                            <label>
+                                <input type="radio" name="has_cat" value="no"> Нет
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="experience">Опыт содержания кошек:</label>
+                        <select id="experience" name="experience">
+                            <option value="none">Нет опыта</option>
+                            <option value="little">Маленький (1-2 года)</option>
+                            <option value="medium">Средний (3-5 лет)</option>
+                            <option value="big">Большой (более 5 лет)</option>
+                        </select>
+                    </div>
+                    <fieldset class="form-group">
+                        <legend>Какой характер кошки вам нравится?</legend>
+
+                        <div class="form-row">
+                            <label for="character">Предпочтительный характер:</label>
+                            <select id="character" name="character">
+                                <option value="calm">Спокойный и независимый</option>
+                                <option value="active">Активный и игривый</option>
+                                <option value="talkative">Общительный и "разговорчивый"</option>
+                                <option value="affectionate">Ласковый и нежный</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <div class="form-buttons">
+                            <button type="submit" class="btn-submit">Отправить анкету</button>
+                            <button type="reset" class="btn-reset">Очистить форму</button>
+                        </div>
+
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p class="footer-text">Выбирай кота по характеру, а не по внешности</p>
+        <p class="footer-text">©2026 Все права защищены</p>
+    </footer>
+</body>
+
+</html>
