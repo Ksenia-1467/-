@@ -126,6 +126,7 @@ body {
     font-size: 17px;
     font-family: 'PT Sans';
     font-weight: 400;
+    margin: 0 35px ;
 }
 
 .site-footer {
@@ -156,17 +157,7 @@ body {
     font-weight: 700;
 }
 
-.btnTop {
-    text-decoration: none;
-    height: 200px;
-    text-align: center;
-    margin: 0 auto;
-}
 
-.btnTop:hover {
-    opacity: 0.8;
-    text-decoration: underline;
-}
 
 .section-text {
     text-align: center;
@@ -236,10 +227,28 @@ a {
 
 .main-button-choice {
     text-align: center;
-    font-family: 'Roboto';
-    font-weight: 700;
-    width: 100%;
-    font-weight: bold;
+    
+margin: 20px 15px;
+
+
+
+}
+.btnTop {
+    text-decoration: none;
+    height: 200px;
+    text-align: center;
+    background-color: #ff6600;
+    color: #fff;
+    border: 2px solid #ff6600;
+   border-radius: 5px;
+    padding: 8px 15px;
+    
+}
+
+.btnTop:hover {
+    text-decoration: underline;
+    background-color: #fff;
+    color:#ff6600 ;
 }
 
 .carousel {
@@ -248,16 +257,8 @@ a {
 
 @media (max-width: 1200px) {
     .main-content {
-        margin-top: 120px;
+       
         padding: 120px auto 30px;
-    }
-
-    .section {
-        padding: 25px;
-    }
-
-    .site-header {
-        padding: 20px 15px;
     }
 
     .logo {
@@ -295,10 +296,6 @@ a {
         margin-bottom: 5px;
     }
 
-    .main-content {
-        margin-top: 100px;
-    }
-
     .logo-animated {
         width: 35px;
         height: 35px;
@@ -309,22 +306,7 @@ a {
         font-size: 14px;
     }
 
-    .page-nav {
-        padding: 8px;
-        flex-wrap: wrap;
-        /* Позволяем переносить элементы */
-        justify-content: center;
-        gap: 5px;
-    }
-
-    .nav-link {
-        padding: 8px 12px;
-        /* Уменьшаем область клика */
-        font-size: 14px;
-    }
-
     .main-content {
-        margin-top: 110px;
         /* Корректируем отступ сверху */
         padding: 0 10px;
     }
@@ -334,18 +316,13 @@ a {
         margin: 20px 0 15px;
     }
 
-    .question-item {
-        padding: 15px;
-        margin-bottom: 8px;
-        /* Уменьшаем отступы между пунктами */
-    }
 
     .section-text {
         font-size: 15px;
     }
 
     .btnTop {
-        padding: 10px 20px;
+       
         font-size: 16px;
     }
 
@@ -410,10 +387,6 @@ a {
         text-align: center;
         padding: 10px;
         margin: 2px 0;
-    }
-
-    .main-content {
-        margin-top: 150px;
     }
 
     .section-title {
@@ -505,8 +478,7 @@ a {
     }
 
     .main-content {
-        margin-top: 140px;
-        padding: 0 5px;
+                padding: 0 5px;
     }
 
     .section {
